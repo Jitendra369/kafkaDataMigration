@@ -1,0 +1,18 @@
+POST : http://localhost:9191/api/kafka/producer
+
+Response:
+{
+"topic":"msg-topic_1",
+"message":"sending the message"
+}
+
+-----------------------------------------------------
+GET: get all the topic
+http://localhost:9191/api/kafka/producer/topics/all
+Res:
+[
+"msg-topic_1",
+"msg-topic1",
+"msg-kafka",
+"msg-topic"
+]
